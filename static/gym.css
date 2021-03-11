@@ -1,0 +1,144 @@
+body{
+   background-image: url('../static/img/bg2.jpg');
+   background-size: cover;
+   margin: 0px;
+   padding: 0px;
+
+}
+
+
+
+#logoid{
+    color: white;
+    /* border: 2px solid green; */
+    display: inline-block;
+    position: absolute;
+    left: 60px; 
+    top: -6px;
+}
+
+#logoimg{
+    width: 102px;
+    filter: invert(100%);
+}
+
+#logoid div {
+    line-height: 10px;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Sofia';
+    text-decoration:underline;
+    text-decoration-color: khaki;
+    }
+
+
+
+
+#navid{
+    color: white;
+    /* border: 2px solid red; */
+    display: block;
+    width: 55%;
+    margin: 20px auto;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+    outline: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    padding: 6px 13px;
+    color: white;
+    font-family: 'Baloo Bhai', cursive;
+    
+}
+
+.navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        text-decoration-color: white;
+        color:khaki
+    }
+
+
+
+
+
+#extraid{
+    color: white;
+    /* border: 2px solid blue; */
+    position: absolute;
+    right: 34px;
+    top: 44px;
+    display: inline-block;
+    
+}
+
+#extraid button{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    font-weight: bold;
+}
+
+#extraid button:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+
+
+.container {
+    /* border: 2px solid white; */
+    margin: -34px -61px;
+    padding: 75px;
+    width: 30%;
+    /* border-radius: 28px; */
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai', cursive;
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 1px;
+    /* border: 2px solid black; */
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.container h1 {
+    text-align: center;
+    color: white;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+    border-radius: 20px;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 20px;
+    color: gray;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.container button:hover{
+    color:white;
+    background-color: gray;
+}
